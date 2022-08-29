@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    color: #2F3556;
+}
+
+a {
+    text-decoration: none;
+    color: #2F3556;
+}
+
+a:hover {
+color: #E22311;
+transition: all 0.5s ease-out;
+}
+
+.container 
+{
+    max-width: 1440px;
+    margin: 0 auto;
+    place-items: center;
+}
+
+.nav>.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+nav ul {
+    position: relative;
+    top: 0px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headline_copy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.headline_copy p:nth-child(1) {
+    padding-bottom: 10px;
+    font-weight: 900;
+    border-bottom: 4px solid #E22311;
+}
+
+.headline_copy p:nth-child(2) {
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: small;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    padding: 0 2rem;
+}
+
+.navbarlogo 
+{
+    height: auto;
+    width: 8rem;
+}
+
+.copy
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 120px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+button 
+{
+width: 16vw;
+text-align: center;
+margin-top: 32px;
+padding: 16px 40px;
+font-size: 1.05rem;
+font-weight: 500;
+color: white;
+background-color: #394086;
+border-radius: 85px;
+border: 2px solid #828CC3;
+text-transform: capitalize;
+margin-bottom: 2.5rem;
+}
+
+.services img 
+{
+    width: 20vw;
+    margin-bottom: 2rem;
+}
+
+
+.services {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .services  {
+      display: grid !important;
+      grid-template-columns: 50% !important;
+      justify-items: center !important;
+    }
+
+    .services img {
+        width: 35vw;
+    }
+
+    .copy {
+        font-size: 1rem ;
+    }
+
+    button { 
+        width: 50%;
+        font-size: 0.75rem;
+    }
+  }
