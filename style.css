@@ -91,12 +91,29 @@ li {
     align-items: center;
 }
 
+.socials 
+{
+  display: flex;
+justify-content: center;
+}
+
+.socials img 
+{
+  height: auto;
+  width: 8rem;
+  padding: 2rem;
+}
+
+.socials svg:hover 
+{
+  fill: #2F3556;
+}
+
 button 
 {
-width: 16vw;
 text-align: center;
-margin-top: 32px;
-padding: 16px 40px;
+margin-top: 3.5rem;
+padding: 16px 40px 16px 40px;
 font-size: 1.05rem;
 font-weight: 500;
 color: white;
@@ -109,7 +126,7 @@ margin-bottom: 2.5rem;
 
 .services img 
 {
-    width: 20vw;
+    width: 16vw;
     margin-bottom: 2rem;
 }
 
@@ -136,15 +153,15 @@ margin-bottom: 2.5rem;
     .copy {
         font-size: 1rem ;
     }
-
+ 
     button { 
-        width: 40%;
+        width: 100%;
         font-size: 0.75rem;
-    }
+    } 
 
     .navbar .logo img {
         height: auto !important;
-        width: 4rem !important;
+        width: 6rem !important;
     }
 
     .navbar {
@@ -187,6 +204,11 @@ margin-bottom: 2.5rem;
     
   }
   
+  a :hover {
+    cursor: pointer;
+  }
+
+
   .navbar .nav-container a:hover{
     color: #E22311;
 transition: all 0.5s ease-out;
@@ -299,3 +321,11 @@ transition: all 0.5s ease-out;
   }
 
   /* not my CSS */
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7.5rem;
+    font-size: 1.5rem;
+  }
