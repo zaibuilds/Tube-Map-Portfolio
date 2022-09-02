@@ -100,14 +100,22 @@ justify-content: center;
 .socials img 
 {
   height: auto;
-  width: 8rem;
-  padding: 2rem;
+  width: 6rem;
+  padding: 2rem 1rem;
 }
 
-.socials svg:hover 
+.socials img:hover
 {
-  fill: #2F3556;
+  animation: gelatine 0.5s infinite;
 }
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
+
 
 button 
 {
@@ -129,6 +137,18 @@ margin-bottom: 2.5rem;
     width: 16vw;
     margin-bottom: 2rem;
 }
+
+.services img:hover {
+  animation: hithere 1s ease infinite;
+}
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
+
 
 
 .services {
@@ -166,6 +186,13 @@ margin-bottom: 2.5rem;
 
     .navbar {
         padding: .5rem 1rem !important;
+    }
+
+    .socials {
+      display: grid !important;
+      grid-template-columns: 50% !important;
+      justify-items: center !important;
+
     }
     
   }
@@ -297,7 +324,7 @@ transition: all 0.5s ease-out;
   
   .navbar .logo img {
     height: auto;
-    width: 8rem;
+    width: 10rem;
     z-index: 999;
   }
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
