@@ -86,7 +86,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 80px;
     font-size: 1.5rem;
     align-items: center;
 }
@@ -101,7 +101,7 @@ justify-content: center;
 {
   height: auto;
   width: 6rem;
-  padding: 2rem 1rem;
+padding: 1rem 1rem;
 }
 
 .socials img:hover
@@ -120,7 +120,7 @@ justify-content: center;
 button 
 {
 text-align: center;
-margin-top: 3.5rem;
+margin-top: 2.5rem;
 padding: 16px 40px 16px 40px;
 font-size: 1.35rem;
 font-weight: 500;
@@ -153,6 +153,7 @@ margin-bottom: 2.5rem;
 
 .services {
     margin-top: 2.5rem;
+    padding-top: 4rem;
     display: flex;
     justify-content: space-evenly;
   }
