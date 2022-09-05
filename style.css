@@ -95,6 +95,7 @@ li a {
     flex-direction: column;
     justify-content: center;
     padding-top: 80px;
+    padding: 4rem 2rem;
     font-size: 1.5rem;
     align-items: center;
 }
@@ -385,7 +386,7 @@ transition: all 0.5s ease-out;
   /* AR Portfolio Page */
 
 .serviceicon {
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .serviceicon img {
