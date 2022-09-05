@@ -381,3 +381,16 @@ transition: all 0.5s ease-out;
     margin-top: 2rem;
     font-size: 1.5rem;
   }
+
+  /* AR Portfolio Page */
+
+.serviceicon {
+  padding: 5rem;
+}
+
+.serviceicon img {
+  display: block;
+  margin: 0 auto;
+  width: 13.75rem;
+  height: auto;
+}
