@@ -15,7 +15,7 @@ body {
     color: #2F3556;
 }
 
-/* a {
+a {
     text-decoration: none;
     color: #2F3556;
 }
@@ -23,7 +23,7 @@ body {
 a:hover {
 color: #E22311;
 transition: all 0.5s ease-out;
-} */
+}
 
 .container 
 {
@@ -32,7 +32,9 @@ transition: all 0.5s ease-out;
     place-items: center;
 }
 
-/* .nav>.container {
+/* Desktop Nav Bar */
+
+.nav>.container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -78,7 +80,13 @@ ul {
 
 li {
     padding: 0 2rem;
-} */
+}
+
+li a {
+  font-size: 1rem;
+}
+
+/* Desktop Nav Bar */
 
 
 .copy
@@ -180,15 +188,6 @@ margin-bottom: 2.5rem;
         font-size: 0.75rem;
     } 
 
-    .mobile_nav .logo img {
-        height: auto !important;
-        width: 6rem !important;
-    }
-
-    .mobile_nav {
-        padding: .5rem 1rem !important;
-    }
-
     .socials {
       display: grid !important;
       grid-template-columns: 50% !important;
@@ -201,6 +200,7 @@ margin-bottom: 2.5rem;
   /* Mobile Nav CSS */
   
   .mobile_nav {
+    display: none;
     width: 100%;
     padding: 1rem 2rem;
   }
@@ -347,7 +347,29 @@ transition: all 0.5s ease-out;
     display: none;
   }
 
-  /* not my CSS */
+  /* Mobile Nav */
+
+  /* Mobile and Desktop Nav Media Query */
+
+  @media only screen and (max-width: 800px) {
+  
+    .mobile_nav .logo img {
+      height: auto !important;
+      width: 6rem !important;
+  }
+
+  .mobile_nav {
+    display: block;
+    padding: .5rem 1rem !important;
+  }
+  
+  .nav {
+    display: none;
+  }
+
+  }
+
+  /* Mobile and Desktop Nav Media Query */
 
   .bio {
     display: flex;
