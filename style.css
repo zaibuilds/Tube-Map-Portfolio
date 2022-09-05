@@ -371,23 +371,6 @@ transition: all 0.5s ease-out;
 
   /* Mobile and Desktop Nav Media Query */
 
-  /* Dark Mode Attempt */
-/* 
-  section{
-    height : 100vh;
-    background: rgb(230,230,230);
-    display:flex;
-    justify-content:space-around;
-    flex-direction:column;
-    align-items:center;
-  }
-  svg{
-    cursor:pointer;
-  } */
-
-
-  /* Dark Mode Attempt */
-
 /* About Page */
 
   .bio {
