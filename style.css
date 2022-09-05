@@ -34,10 +34,10 @@ transition: all 0.5s ease-out;
 
 /* Desktop Nav Bar */
 
-.nav>.container {
+.nav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 2rem;
 }
 
@@ -50,13 +50,25 @@ nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.headline :hover {
+  animation: gelatine 0.5s infinite;
+}
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
 }
 
 .headline_copy {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .headline_copy p:nth-child(1) {
@@ -83,7 +95,8 @@ li {
 }
 
 li a {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 /* Desktop Nav Bar */
@@ -143,7 +156,7 @@ margin-bottom: 2.5rem;
 
 .services img 
 {
-    width: 16vw;
+    width: 12vw;
     margin-bottom: 2rem;
 }
 
@@ -313,7 +326,7 @@ transition: all 0.5s ease-out;
   .mobile_nav .menu-items li {
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
   }
   
   .mobile_nav .logo {
@@ -386,7 +399,7 @@ transition: all 0.5s ease-out;
   /* AR/Branding/UX/3D Portfolio Page */
 
 .serviceicon {
-  padding: 2rem;
+  padding: 6rem 2rem 2rem 2rem;
 }
 
 .serviceicon img {
