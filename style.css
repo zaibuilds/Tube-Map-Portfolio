@@ -180,12 +180,12 @@ margin-bottom: 2.5rem;
         font-size: 0.75rem;
     } 
 
-    .navbar .logo img {
+    .mobile_nav .logo img {
         height: auto !important;
         width: 6rem !important;
     }
 
-    .navbar {
+    .mobile_nav {
         padding: .5rem 1rem !important;
     }
 
@@ -198,9 +198,9 @@ margin-bottom: 2.5rem;
     
   }
 
-  /* NOT MY CSS */
+  /* Mobile Nav CSS */
   
-  .navbar {
+  .mobile_nav {
     width: 100%;
     padding: 1rem 2rem;
   }
@@ -214,15 +214,15 @@ margin-bottom: 2.5rem;
   
   }
   
-  .navbar .menu-items {
+  .mobile_nav .menu-items {
     display: flex;
   }
   
-  .navbar .nav-container li {
+  .mobile_nav .nav-container li {
     list-style: none;
   }
   
-  .navbar .nav-container a {
+  .mobile_nav .nav-container a {
     text-decoration: none;
     color: #2F3556;
     font-weight: 500;
@@ -236,7 +236,7 @@ margin-bottom: 2.5rem;
   }
 
 
-  .navbar .nav-container a:hover{
+  .mobile_nav .nav-container a:hover{
     color: #E22311;
 transition: all 0.5s ease-out;
   }
@@ -296,7 +296,7 @@ transition: all 0.5s ease-out;
     transition: transform 0.4s ease-in-out;
   }
   
-  .navbar .menu-items {
+  .mobile_nav .menu-items {
     padding-top: 120px;
     height: 100vh;
     width: 100%;
@@ -309,20 +309,20 @@ transition: all 0.5s ease-out;
     position: relative;
   }
   
-  .navbar .menu-items li {
+  .mobile_nav .menu-items li {
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
     font-weight: 500;
   }
   
-  .navbar .logo {
+  .mobile_nav .logo {
     position: absolute;
     top: 5px;
     right: 15px;
     z-index: 999;
   }
   
-  .navbar .logo img {
+  .mobile_nav .logo img {
     height: auto;
     width: 10rem;
     z-index: 999;
