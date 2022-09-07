@@ -420,3 +420,15 @@ transition: all 0.5s ease-out;
 
 }
 
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem;
+}
+
+.portfolio img {
+  height: auto;
+  width: 25rem;
+  padding: 2rem;
+}
+
