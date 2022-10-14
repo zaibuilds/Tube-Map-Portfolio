@@ -472,5 +472,6 @@ div.copy img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  max-width: 20rem;
+   max-width: 20rem;
 }
+
