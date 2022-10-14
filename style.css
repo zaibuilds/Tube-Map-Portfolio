@@ -107,9 +107,8 @@ li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 80px;
-    padding: 4rem 2rem 2rem 2rem;
-    font-size: 1.5rem;
+    padding: 6rem 4rem;
+    font-size: 1.125rem;
     align-items: center;
 }
 
@@ -463,7 +462,7 @@ margin: 2rem;
 
 div.copy img {
   max-width: 5rem;
-  padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 /* Cover Image */
@@ -477,6 +476,8 @@ div.copy img {
 }
 
 .cover_image img {
+  width: 100%;
+  border-radius: 2rem;
   max-width: 30rem;
 }
 
