@@ -454,3 +454,11 @@ transition: all 0.5s ease-out;
 .video1 {
   width: auto;
 }
+
+/*Shoobs page*/
+
+div.copy img {
+  max-width: 5rem;
+  padding-bottom: 4rem;
+
+}
