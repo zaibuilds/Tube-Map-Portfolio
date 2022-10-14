@@ -453,9 +453,8 @@ justify-content: center;
 }
 
 .arimages img {
-  max-width: 24rem;
-  border-radius: 2rem;
-  -webkit-transform: translateZ(0);
+max-width: 24rem;
+border-radius: 2rem;
 box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07);
 margin: 2rem;
 }
