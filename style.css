@@ -117,6 +117,7 @@ li a {
 {
   display: flex;
 justify-content: center;
+padding-bottom: 2rem;
 }
 
 .socials img 
@@ -443,3 +444,12 @@ transition: all 0.5s ease-out;
   75% { transform: scale(0.95, 1.05); }
 }
 
+.videos {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.videos video {
+  max-width: 25%;
+}
