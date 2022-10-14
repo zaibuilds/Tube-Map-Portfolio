@@ -472,6 +472,11 @@ div.copy img {
   display: flex;
   flex-direction: row;
   align-items: center;
-   max-width: 20rem;
+  justify-content: center;
+  padding-top: 6rem;
+}
+
+.cover_image img {
+  max-width: 30rem;
 }
 
