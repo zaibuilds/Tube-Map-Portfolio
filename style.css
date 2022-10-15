@@ -544,3 +544,9 @@ div.copy img {
   border-radius: 0.5rem;
   max-width: 28rem;
 }
+
+.prototype {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
