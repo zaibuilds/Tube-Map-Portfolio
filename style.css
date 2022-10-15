@@ -482,7 +482,7 @@ div.copy img {
   max-width: 30rem;
 }
 
-.brandingimages {
+.project_images {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -491,7 +491,7 @@ div.copy img {
   gap: 2rem;
 }
  
-.brandingimages img {
+.project_images img {
   width: 100%;
   border-radius: 2rem;
   max-width: 50rem;
