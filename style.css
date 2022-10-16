@@ -145,13 +145,12 @@ button
 text-align: center;
 margin-top: 2.5rem;
 padding: 16px 40px 16px 40px;
-font-size: 1.35rem;
+font-size: 1rem;
 font-weight: 500;
 color: white;
 background-color: #394086;
 border-radius: 85px;
 border: 2px solid #828CC3;
-text-transform: capitalize;
 margin-bottom: 2.5rem;
 }
 
