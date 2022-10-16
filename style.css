@@ -515,7 +515,7 @@ div.copy img {
 
 .medium_project_images {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
