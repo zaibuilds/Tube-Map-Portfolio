@@ -549,4 +549,5 @@ div.copy img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem 4rem 4rem 4rem;
 }
