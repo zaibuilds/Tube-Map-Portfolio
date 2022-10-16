@@ -107,7 +107,7 @@ li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 6rem 4rem;
+    padding: 6rem 4rem 4rem 4rem;
     font-size: 1.125rem;
     align-items: center;
     text-align: left;
