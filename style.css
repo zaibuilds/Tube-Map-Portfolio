@@ -454,6 +454,7 @@ padding: 4rem;
 }
 
 .arimages img {
+width: 100%;
 max-width: 24rem;
 border-radius: 2rem;
 box-shadow: 0 19px 51px 0 rgba(0,0,0,0.16), 0 14px 19px 0 rgba(0,0,0,0.07);
