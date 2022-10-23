@@ -173,7 +173,8 @@ border: 2px solid #828CC3;
 
 
 .services {
-    padding: 6rem 4rem 4rem 4rem;
+    margin-top: 2rem;
+    padding: 4rem 4rem 4rem 4rem;
     display: flex;
     justify-content: space-evenly;
   }
