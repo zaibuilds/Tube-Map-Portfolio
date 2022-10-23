@@ -117,13 +117,13 @@ li a {
 {
   display: flex;
 justify-content: center;
-padding-bottom: 2rem;
+padding: 2rem;
 }
 
 .socials img 
 {
   height: auto;
-  width: 6rem;
+  width: 5rem;
 padding: 1rem 1rem;
 }
 
@@ -151,7 +151,6 @@ color: white;
 background-color: #394086;
 border-radius: 85px;
 border: 2px solid #828CC3;
-margin-bottom: 2.5rem;
 }
 
 .services img 
@@ -175,7 +174,7 @@ margin-bottom: 2.5rem;
 
 .services {
     margin-top: 2.5rem;
-    padding-top: 4rem;
+    padding: 4rem 4rem 4rem 4rem;
     display: flex;
     justify-content: space-evenly;
   }
@@ -391,7 +390,7 @@ transition: all 0.5s ease-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5rem 7.5rem;
+    padding: 4rem 2rem 4rem 2rem;
     margin-top: 2rem;
     font-size: 1.125rem;
   }
@@ -550,4 +549,45 @@ div.copy img {
   justify-content: center;
   align-items: center;
   padding: 2rem 4rem 4rem 4rem;
+}
+
+
+
+.intro_copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1.125rem;
+  align-items: center;
+  text-align: left;
+}
+
+.spotify_plus_socials {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.currently_playing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+}
+
+.currently_playing img {
+  width: 100%;
+  max-width: 4.5rem;
+  /* margin-bottom: 2rem; */
+}
+
+.spotify_embed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 60%;
+  margin: auto;
 }
