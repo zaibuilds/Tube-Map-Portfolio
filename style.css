@@ -608,7 +608,7 @@ padding: 2rem;
 font-weight: 600;
 }
 
-.loading_container {
+/* .loading_container {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -624,4 +624,4 @@ font-weight: 600;
 
 .loading_container img {
   width: 50rem;
-}
+} */
