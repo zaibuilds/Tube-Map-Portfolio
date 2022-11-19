@@ -384,7 +384,8 @@ transition: all 0.5s ease-out;
   }
 
   .portfolio img {
-    width: 20rem;
+    max-width: 100%;
+    width: 30rem;
 
   }
 
@@ -436,7 +437,8 @@ transition: all 0.5s ease-out;
 
 .portfolio img {
   height: auto;
-  width: 40rem;
+  max-width: 100%;
+  width: 50rem;
   padding: 2rem;
 }
 
