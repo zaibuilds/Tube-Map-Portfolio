@@ -139,9 +139,13 @@ padding: 0.5rem;
   75% { transform: scale(0.95, 1.05); }
 }
 
+.contact_button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-button 
+.contact_button
 {
 text-align: center;
 margin-top: 2.5rem;
@@ -577,15 +581,6 @@ div.copy img {
 
 
 
-.intro_copy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem 4rem 1rem 4rem;
-  font-size: 1.125rem;
-  align-items: center;
-  text-align: left;
-}
 
 .currently_playing_experiment {
   padding-bottom: 2rem;
@@ -625,4 +620,32 @@ align-content: center;
 padding: 2rem;
 font-weight: 600;
 }
+
+/* .back_to_top {
+text-align: center;
+margin-top: 2.5rem;
+padding: 12px 48px 12px 48px;
+font-size: 1rem;
+font-weight: 500;
+background-color: #272727;
+border-radius: 8px;
+border: 2px solid #3f3f3f;
+} */
+
+.mouse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 4rem 1rem 4rem;
+  font-size: 1.125rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mouse img {
+  width: 100%;
+  border-radius: 1rem;
+  max-width: 3rem;
+}
+
 
