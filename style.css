@@ -178,7 +178,6 @@ border: 2px solid #828CC3;
 
 
 .services {
-    margin-top: 2rem;
     padding: 4rem 4rem 4rem 4rem;
     display: flex;
     justify-content: space-evenly;
@@ -632,7 +631,8 @@ border-radius: 8px;
 border: 2px solid #3f3f3f;
 } */
 
-.mouse {
+.intro {
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -642,7 +642,7 @@ border: 2px solid #3f3f3f;
   gap: 1rem;
 }
 
-.mouse img {
+.intro img {
   width: 100%;
   border-radius: 1rem;
   max-width: 3rem;
