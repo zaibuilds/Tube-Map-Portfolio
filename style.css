@@ -383,6 +383,11 @@ transition: all 0.5s ease-out;
     display: none;
   }
 
+  .portfolio img {
+    width: 20rem;
+
+  }
+
   }
 
   /* Mobile and Desktop Nav Media Query */
@@ -431,7 +436,7 @@ transition: all 0.5s ease-out;
 
 .portfolio img {
   height: auto;
-  width: 60rem;
+  width: 40rem;
   padding: 2rem;
 }
 
