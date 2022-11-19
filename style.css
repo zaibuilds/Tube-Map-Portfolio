@@ -442,6 +442,20 @@ transition: all 0.5s ease-out;
   padding: 2rem;
 }
 
+.portfolio_square {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem;
+  justify-content: center;
+}
+
+.portfolio_square img {
+  height: auto;
+  max-width: 100%;
+  width: 40rem;
+  padding: 2rem;
+}
+
 .portfolio a :hover {
   animation: gelatine 0.5s infinite;
 }
