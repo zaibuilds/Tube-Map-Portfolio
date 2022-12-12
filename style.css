@@ -666,6 +666,10 @@ border: 2px solid #3f3f3f;
   align-items: center;
 }
 
+.in_progress img {
+  max-width: 6rem;
+}
+
 .in_progress_projects {
   padding: 6rem 10rem;
   display: flex;
