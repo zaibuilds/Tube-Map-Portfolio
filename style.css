@@ -659,3 +659,9 @@ border: 2px solid #3f3f3f;
 }
 
 
+.in_progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
