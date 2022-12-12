@@ -665,3 +665,11 @@ border: 2px solid #3f3f3f;
   justify-content: center;
   align-items: center;
 }
+
+.in_progress_projects {
+  padding: 6rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
