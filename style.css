@@ -683,7 +683,9 @@ border: 2px solid #3f3f3f;
   width: 100%;
   max-width: 20rem;
   flex-wrap: wrap;
-  border-spacing: 1rem;
+  border-spacing: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .in_progress_projects img {
