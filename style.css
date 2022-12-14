@@ -50,6 +50,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
 }
