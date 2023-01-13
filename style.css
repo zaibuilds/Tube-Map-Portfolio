@@ -536,19 +536,17 @@ div.copy img {
 }
 
 .large_project_images {
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4rem;
+  gap: 6rem;
 
 }
 
 .large_project_images img {
   width: 100%;
   max-width: 90rem;
-  border-radius: 1.5rem;
   padding: 0.5rem;
 }
 
