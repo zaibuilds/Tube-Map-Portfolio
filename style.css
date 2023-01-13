@@ -531,9 +531,26 @@ div.copy img {
  
 .project_images img {
   width: 100%;
-  border-radius: 2rem;
+  border-radius: 1rem;
   max-width: 50rem;
 }
+
+.large_project_images {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+}
+
+.large_project_images img {
+  width: 100%;
+  max-width: 90rem;
+  padding: 1rem;
+}
+
 
 .small_project_images {
   display: flex;
@@ -547,7 +564,7 @@ div.copy img {
  
 .small_project_images img {
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
   max-width: 12rem;
 }
 
