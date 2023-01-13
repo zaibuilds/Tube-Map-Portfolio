@@ -548,6 +548,7 @@ div.copy img {
 .large_project_images img {
   width: 100%;
   max-width: 90rem;
+  border-radius: 2rem;
   padding: 1rem;
 }
 
