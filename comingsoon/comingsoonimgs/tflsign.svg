@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3000 3000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(2.77778,0,0,2.77778,0,0)">
+        <g>
+            <g transform="matrix(1,0,0,1,19.0967,-1.13687e-13)">
+                <g transform="matrix(1.04138,0,0,0.928738,-225.871,186.915)">
+                    <path d="M1178.54,205.668C1178.54,201.165 1176.94,196.847 1174.1,193.664C1171.27,190.48 1167.41,188.691 1163.4,188.691L270.795,188.691C266.78,188.691 262.929,190.48 260.089,193.664C257.25,196.847 255.655,201.165 255.655,205.668L255.655,554.686C255.655,559.188 257.25,563.506 260.089,566.69C262.929,569.874 266.78,571.662 270.795,571.662L1163.4,571.662C1167.41,571.662 1171.27,569.874 1174.1,566.69C1176.94,563.506 1178.54,559.188 1178.54,554.686L1178.54,205.668Z" style="fill:rgb(35,35,35);stroke:rgb(86,86,86);stroke-width:9.12px;"/>
+                </g>
+                <g transform="matrix(1.00426,0,0,0.957256,-21.3952,17.2227)">
+                    <g transform="matrix(0.947666,0,0,0.597524,-139.568,287.711)">
+                        <path d="M1178.54,203.609C1178.54,195.37 1174.53,188.691 1169.57,188.691C1080.38,188.691 353.818,188.691 264.621,188.691C259.669,188.691 255.655,195.37 255.655,203.609C255.655,264.726 255.655,495.628 255.655,556.744C255.655,564.983 259.669,571.662 264.621,571.662C353.818,571.662 1080.38,571.662 1169.57,571.662C1174.53,571.662 1178.54,564.983 1178.54,556.744C1178.54,495.628 1178.54,264.726 1178.54,203.609Z" style="fill:rgb(81,81,81);stroke:rgb(49,49,49);stroke-width:7.64px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-0.641799,-1.62003)">
+                        <g transform="matrix(0.833729,0,0,0.833729,20.7788,90.8042)">
+                            <g transform="matrix(1,0,0,1,-4.44089e-16,63.8143)">
+                                <g transform="matrix(1,0,0,1,-7.34906,-29.4306)">
+                                    <g>
+                                        <text x="132.318px" y="485.497px" style="font-family:'Heavy', 'London Underground';font-weight:800;font-size:36px;fill:rgb(255,162,0);">1</text>
+                                        <text x="147.318px" y="485.497px" style="font-family:'Medium', 'London Underground';font-weight:500;font-size:36px;fill:rgb(255,162,0);">st</text>
+                                    </g>
+                                </g>
+                                <g transform="matrix(1,0,0,1,88.1546,-29.4306)">
+                                    <text x="132.318px" y="485.497px" style="font-family:'LondonUnderground', 'London Underground';font-size:36px;fill:rgb(255,162,0);">Zai Builds</text>
+                                </g>
+                            </g>
+                            <g transform="matrix(1,0,0,1,-4.44089e-16,140.342)">
+                                <g transform="matrix(1,0,0,1,-7.34906,-29.4306)">
+                                    <g>
+                                        <text x="132.318px" y="485.497px" style="font-family:'Heavy', 'London Underground';font-weight:800;font-size:36px;fill:rgb(255,162,0);">2</text>
+                                        <text x="153.318px" y="485.497px" style="font-family:'Medium', 'London Underground';font-weight:500;font-size:36px;fill:rgb(255,162,0);">nd</text>
+                                    </g>
+                                </g>
+                                <g transform="matrix(1,0,0,1,88.1546,-29.4306)">
+                                    <text x="132.318px" y="485.497px" style="font-family:'LondonUnderground', 'London Underground';font-size:36px;fill:rgb(255,162,0);">Creative Technologist</text>
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="matrix(0.859419,0,0,0.901616,19.0864,40.9666)">
+                            <text x="123.202px" y="471.947px" style="font-family:'Heavy', 'London Underground';font-weight:800;font-size:62.043px;fill:rgb(255,162,0);">Approaching</text>
+                            <text x="495.46px" y="471.947px" style="font-family:'LucidaGrande-Bold', 'Lucida Grande', sans-serif;font-weight:600;font-size:62.043px;fill:rgb(255,162,0);">....</text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,16.6961,-2.40234)">
+                <text x="404.388px" y="695.544px" style="font-family:'Heavy', 'London Underground';font-weight:800;font-size:62.043px;fill:rgb(255,162,0);">12:34:56</text>
+            </g>
+        </g>
+    </g>
+</svg>
