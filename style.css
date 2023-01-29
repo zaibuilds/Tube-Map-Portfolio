@@ -403,7 +403,7 @@ transition: all 0.5s ease-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4rem 6rem 2rem 4rem;
+    padding: 4rem 6rem 2rem 6rem;
     margin-top: 2rem;
     font-size: 1.125rem;
   }
