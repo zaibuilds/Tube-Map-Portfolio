@@ -749,10 +749,10 @@ border: 2px solid #3f3f3f;
   }
 
   .testimonials {
-    padding: 2rem;
+    padding: 4rem 8rem;
   }
 
   .testimonials h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
    text-align: center;
   }
