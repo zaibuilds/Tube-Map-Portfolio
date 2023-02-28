@@ -949,7 +949,7 @@ border: 2px solid #3f3f3f;
     }
   }
   
-  @keyframes cycle4 {
+  /* @keyframes cycle4 {
     0% {
       top: -325px;
       opacity: 0;
@@ -1015,4 +1015,4 @@ border: 2px solid #3f3f3f;
       opacity: 0;
       z-index: 0;
     }
-  }
+  } */
